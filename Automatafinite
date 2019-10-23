@@ -22,8 +22,8 @@ def getNextState(pat, M, state, x):
 
 	# Start from the largest possible value and 
 	# stop when you find a prefix which is also suffix 
-	for ns in range(state,0,-1) 
-		if ord(pat[ns-1]) == x 
+	for ns in range(state,0,-1): 
+		if ord(pat[ns-1]) == x: 
 			while(i<ns-1): 
 				if pat[i] != pat[state-ns+1+i]: 
 					break
