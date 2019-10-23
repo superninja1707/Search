@@ -6,8 +6,8 @@ MAX=256
 # This function returns true 
 # if contents of arr1[] and arr2[] 
 # are same, otherwise false. 
-def compare(arr1, arr2) 
-	for i in range(MAX) 
+def compare(arr1, arr2):
+	for i in range(MAX): 
 		if arr1[i] != arr2[i]: 
 			return False
 	return True
