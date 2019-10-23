@@ -10,8 +10,8 @@ def search(pat, txt):
 		
 		# For current index i, check 
 		# for pattern match */ 
-		while(j < M) 
-			if (txt[i + j] = pat[j]): 
+		while(j < M):
+			if (txt[i + j] != pat[j]): 
 				break
 			j += 1
 
